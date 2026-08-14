@@ -1,0 +1,39 @@
+.form-container {
+    display: flex;
+    flex-flow: column;
+    width: 60rem;
+}
+.form-container h1 {
+    margin-bottom: 2rem;
+}
+.form-control {
+    display: flex;
+    flex-flow: column;
+    margin: 1rem 0;
+}
+.form-control label {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.form-control input {
+    padding: 1rem 1.5rem;
+    border-radius: 3px;
+    border: var(--border);
+}
+.form-control textarea {
+    padding: 1rem 1.5rem;
+    border-radius: 3px;
+    border: var(--border);
+    min-height: 30rem;
+}
+.form-control select {
+    padding: 1rem 1.5rem;
+    border: var(--border);
+    background-color: white;
+
+}
+.form-action {
+    display: flex;
+    flex-flow: row-nowrap;
+    justify-content: flex-end;
+}
